@@ -588,7 +588,7 @@ class AccountPlanner {
     public function chatgpt_send_message($message_array) {
         
 
-        $open_ai_key = get_option( "api_key"); //'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';
+        $open_ai_key = get_option( "api_key"); 
         $open_ai = new OpenAi($open_ai_key);
         
     
